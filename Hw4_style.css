@@ -1,0 +1,140 @@
+body {
+  background-color: rgb(238, 240, 252);
+  display: contents;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.header {
+  position: relative;
+  background-color: #032582c9;
+  height: 100px;
+  margin-top: 0px;
+}
+.title {
+  position: relative;
+  font-size:larger;
+  left: 40px;
+  float: left;
+  color: rgb(255, 255, 255);
+}
+.login {
+  position: relative;
+  float: right;
+  right: 400px;
+  top: 35px;
+}
+.login__user {
+  float: left;
+  right: 90px;
+  margin-right: 20px;
+  color: aliceblue;
+}
+.login__pass {
+  float: left;
+  right: 90px;
+  color: aliceblue;
+}
+#Login {
+  position: relative;
+  float: left;
+  top: 22px;
+  left: 20px;
+  height: fit-content;
+  background-color: #0c72d1;
+  color: white;
+  border: 1px solid #0965bb;
+}
+#pass,
+#user {
+  width: 160px;
+  height: 15px;
+}
+#forgot {
+  color: #ffffff79;
+}
+
+.main {
+  display: flex;
+  width: 100%;
+}
+.content {
+  flex: 0 0 56%;
+}
+.content h1{
+    display: block;
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 700px;
+    color: #0f1746c9;
+    font-size: xX-large;
+}
+.Reg {
+  flex: 0 0 44%;
+  height: 100%;
+}
+#Reg__content h1{
+    margin-bottom:0px ;
+    font-size: xx-large;
+}
+#Reg__content p{
+    margin-top:0px;
+}
+.Reg__fname {
+  float: left;
+  margin-right: 20px;
+}
+.Reg__lname {
+  float: left;
+}
+#fname,#lname{
+    font-size: large;
+}
+.Reg__emailnumber,.Reg_pass{
+    position: relative;
+    width: 100%;
+}
+#Iemail_number,#Regpass{
+    position: relative;
+    width: 99%;
+    margin-top: 10px;
+    font-size: large;
+}
+#sel_years,#sel_months,#sel_days{
+    background-color: white;
+    margin-right: 3px;
+}
+#Birthday p{
+    margin-bottom:0 ;
+}
+
+#Birthday a{
+    display: inline-block;
+    margin-left: 10px;
+    width: 170px;
+    font-size:small;
+}
+
+input[type=text],input[type=password]{
+    height: 25px;
+}
+
+.gender{
+    margin-top:20px;
+}
+.gender #male{
+    margin-left: 15px;
+}
+.describe{
+    display: block;
+    width: 300px;
+    font-size: small;
+}
+#CreateAcc{
+    background-color: #258d35c9;
+    color: white;
+    width: 150px;
+    height: 35px;
+    border:1px #258d35c9;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
